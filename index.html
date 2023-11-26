@@ -3,9 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio web</title>
+    <title>Mi presentacion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html{font-family: 'Roboto', sans-serif;}
+
+        body{margin: 0;
+        background-color: #efefef;}
+        header{background-color: rgb(44, 61, 92);
+        color: white; padding: 3rem 2rem;}
+        header h1{font-size: 4rem;
+        text-align: center;}
+        h2{text-align: center;
+        background-color: grey; color: white; padding: 10px; margin: auto;}
+        table{width: 100%;}
+        th, td{border: solid 1px;color: black;
+        padding: 5px;}
+        th{background-color: rgb(44, 61, 92); color: whitesmoke; text-align: left;}
+        tr:hover{background-color: rgb(195, 218, 240);}
+        tr:nth-child(even){background-color: gainsboro}
+        p{text-align: center;}
+        img{border: 3px dashed; color: grey;}
+        .center{display: flex;
+        justify-content: center;
+padding: 10px;} 
+article{text-align:start}
+footer{background-color: rgb(44, 61, 92);
+padding: 3rem;
+color: white; text-align: end;}
+        
+        
+    </style>
 </head>
 <body>
-    <h1>Hola a todos</h1>
+    <header>
+        <h1>Un pequeño blog sobre mi</h1>
+    </header>
+    <section>
+    
+    <h2>Un poco sobre mi</h2>
+    <p>Mi nombre es Luis David Fuquen Escobar, tengo 21 años, actualmente vivo en la ciudad de Tunja, Boyaca, soy actualmente estudiante de ingenieria de sistemas de una universidad virtual, actualmetne mi nivel de estudios es tecnologo en gestion empresarial, trabajo en una clinica de la ciudad en el area administrativa, soy el menor de tres hermanos, actualmente vivo con mi hermana y mi madre, tambien tengo dos mascotas un gato y un perro. Soy una persona que le gusta aprender mucho, que le gusta estar en constante aprendizaje, soy una persona emprendedora, hace poco saque una mini linea de ropa deportiva enfocada hacia la mujer.</p>
+    <hr>
+    
+    <div class="center">
+    <img src="David.jpeg" alt="Imagen mia" width="400"; style="border: 60px solid rgb(44, 61, 92);">
+    </div>
+
+    <h2>Mi ubicacion actual</h2>
+   <div class="center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3971.2189853969066!2d-73.36286116839032!3d5.5345030970559295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1699912840426!5m2!1ses-419!2sco" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"; style="border: 60px solid rgb(44, 61, 92);"></iframe>
+   </div>
+    <hr>
+    
+    <article>
+    <h2>¿Porque elegi realizar este curso?</h2>
+    <p>Elegi realizar este curso, porque quiero complementar mis estudios de mi carrera universitaria con el fin de tener un aprendizaje mas completo, aparte son temas que me parecen super interesantes y que valen la pena de aprender, soy una persona que le gusta estar en constante aprendizaje.</p>
+    <p>Tambien elegi este curso para un futuro proyecto que tengo en mente, para aplicar estos conocimientos en los emprendimientos que tengo pensado realizar</p>
+    </article>
+
+    <article>
+    <h2>¿Que aspiraciones tengo con este curso?</h2>
+    <p>A pesar de que aun me siento que soy muy nuevo en el tema, he tenido compañeros que han pasado por el curso, y me han dicho que han aprendido muchas cosas que en otra instituicion no les han enseñado, asi que este fue una motivacion para mi, siento que este curso me puede brindar una muy buena formacion como programador,diseñador, el objetivo en general es poder manejar muy bien todos los temas de tal manera que el dia de mañana en el campo laboral pueda aplicar todos esos conocimientos aprendidos.</p>
+    </article>
+    <hr>
+
+    <article>
+    <h2>Mis hobbits favoritos</h2>
+    <ul>
+        <li>Ir al gimnasio a entrenar</li>
+        <li>Jugar futbol</li>
+        <li>Leer libros</li>
+            <ul>
+                <li>Superacion personal</li>
+                <li>Educacion financiera</li>
+                <li>Nuevas habilidades</li>
+                <li>Habitos sanos</li>
+            </ul>
+        <li>Escuchar musica</li>
+        <li>Hacer videos</li>
+        <li>Compartir con amigos</li>
+    </ul> 
+    <hr> 
+    </article>
+
+    <h2>Mi cancion favorita</h2>
+    <p>Especialmente la escucho cuando entreno, es una cancion que no tiene voces es instrumental, simpelente para ayudarme a concentrar en cualquier actividad, y motivarme.</p>
+    <div class="center">
+    <audio src="The Fallen - Slowed.mp3" controls style="border: 10px solid rgb(44, 61, 92);"></audio>
+    </div>
+    <hr>
+
+    <h2>Mi video favorito</h2>
+    <p>Este video viene de una pelicula llamada Desafiando Gigantes en donde nos brina una enorme reflexion para la vida</p>
+    <div class="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vCeic31g9KQ?si=SOis1ODsBlIheLzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 60px solid rgb(44, 61, 92);"></iframe>
+    </div>
+
+    <h2>Mi rutina semanal</h2>
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sabado</th>
+            <th>Domingo</th>
+        </tr>
+        <tr>
+            <td>6:30 am</td>
+            <td>Trabajo</td>
+            <td>Trabajo</td>
+            <td>Trabajo</td>
+            <td>Trabajo</td>
+            <td>Trabajo</td>
+            <td>Dormir</td>
+            <td>Dormir</td>
+        </tr>
+        <tr>
+            <td>9:00 am</td>
+            <td>Tomar un descanso en el trabajo</td>
+            <td>Tomar un descanso en el trabajo</td>
+            <td>Tomar un descanso en el trabajo</td>
+            <td>Tomar un descanso en el trabajo</td>
+            <td>Tomar un descanso en el trabajo</td>
+            <td>Ir al Gym</td>
+            <td>Ir a jugar futbol</tr>
+        </tr>
+        <tr>
+            <td>1:00 pm</td>
+            <td>Almorzar</td>
+            <td>Almorzar</td>
+            <td>Almorzar</td>
+            <td>Almorzar</td>
+            <td>Almorzar</td>
+            <td>Almorzar</td>
+            <td>Almorzar</td>
+        </tr>
+        <tr>
+            <td>2:00 pm</td>
+            <td>Entrenar en el gym</td>
+            <td>Entrenar en el gym</td>
+            <td>Entrenar en el gym</td>
+            <td>Entrenar en el gym</td>
+            <td>Entrenar en el gym</td>
+            <td>Hacer aseo de casa</td>
+            <td>Compartir con amigos</td>
+        </tr>
+        <tr>
+            <td>5:00 pm</td>
+            <td>Hacer trabajos de la u</td>
+            <td>Hacer trabajos de la u</td>
+            <td>Hacer trabajos de la u</td>
+            <td>Leer</td>
+            <td>Leer</td>
+            <td>Lavar y colgar ropa</td>
+            <td>Alistar lo de la semana</td>
+        </tr>
+        <tr>
+            <td>8:00 pm</td>
+            <td>Clase</td>
+            <td>Clase</td>
+            <td>Clase</td>
+            <td>Clase</td>
+            <td>Clase</td>
+            <td>Compartir con familia</td>
+            <td>Recompensa</td>
+        </tr>
+    </table>
+
+
+    </section>
+    <footer>Correo: fuquenescobarluisdavid@gmail.com </footer>
 </body>
 </html>
