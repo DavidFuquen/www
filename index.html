@@ -3,180 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi presentacion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        html{font-family: 'Roboto', sans-serif;}
+        <title>Mi presentacion</title>
+        <link rel="shortcut icon" href="img/alien.png" type="image/x-icon">
+        <link rel="stylesheet" href="estilos.css"> 
 
-        body{margin: 0;
-        background-color: #efefef;}
-        header{background-color: rgb(44, 61, 92);
-        color: white; padding: 3rem 2rem;}
-        header h1{font-size: 4rem;
-        text-align: center;}
-        h2{text-align: center;
-        background-color: grey; color: white; padding: 10px; margin: auto;}
-        table{width: 100%;}
-        th, td{border: solid 1px;color: black;
-        padding: 5px;}
-        th{background-color: rgb(44, 61, 92); color: whitesmoke; text-align: left;}
-        tr:hover{background-color: rgb(195, 218, 240);}
-        tr:nth-child(even){background-color: gainsboro}
-        p{text-align: center;}
-        img{border: 3px dashed; color: grey;}
-        .center{display: flex;
-        justify-content: center;
-padding: 10px;} 
-article{text-align:start}
-footer{background-color: rgb(44, 61, 92);
-padding: 3rem;
-color: white; text-align: end;}
-        
-        
-    </style>
 </head>
 <body>
     <header>
-        <h1>Un pequeño blog sobre mi</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Mi ubicacion</a>
+            <a href="#">Mis gustos</a>
+            <a href="#">Hobbies</a>
+            <a href="#">Aspiracion</a>
+            <a href="#">A futuro</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Un pequeño blog sobre mi</h1>
+            <h2>Conoce un poco sobre mi</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C166.76,122.69 315.74,-76.64 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
     </header>
-    <section>
-    
-    <h2>Un poco sobre mi</h2>
-    <p>Mi nombre es Luis David Fuquen Escobar, tengo 21 años, actualmente vivo en la ciudad de Tunja, Boyaca, soy actualmente estudiante de ingenieria de sistemas de una universidad virtual, actualmetne mi nivel de estudios es tecnologo en gestion empresarial, trabajo en una clinica de la ciudad en el area administrativa, soy el menor de tres hermanos, actualmente vivo con mi hermana y mi madre, tambien tengo dos mascotas un gato y un perro. Soy una persona que le gusta aprender mucho, que le gusta estar en constante aprendizaje, soy una persona emprendedora, hace poco saque una mini linea de ropa deportiva enfocada hacia la mujer.</p>
-    <hr>
-    
-    <div class="center">
-    <img src="David.jpeg" alt="Imagen mia" width="400"; style="border: 60px solid rgb(44, 61, 92);">
-    </div>
-
-    <h2>Mi ubicacion actual</h2>
-   <div class="center">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3971.2189853969066!2d-73.36286116839032!3d5.5345030970559295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1699912840426!5m2!1ses-419!2sco" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"; style="border: 60px solid rgb(44, 61, 92);"></iframe>
-   </div>
-    <hr>
-    
-    <article>
-    <h2>¿Porque elegi realizar este curso?</h2>
-    <p>Elegi realizar este curso, porque quiero complementar mis estudios de mi carrera universitaria con el fin de tener un aprendizaje mas completo, aparte son temas que me parecen super interesantes y que valen la pena de aprender, soy una persona que le gusta estar en constante aprendizaje.</p>
-    <p>Tambien elegi este curso para un futuro proyecto que tengo en mente, para aplicar estos conocimientos en los emprendimientos que tengo pensado realizar</p>
-    </article>
-
-    <article>
-    <h2>¿Que aspiraciones tengo con este curso?</h2>
-    <p>A pesar de que aun me siento que soy muy nuevo en el tema, he tenido compañeros que han pasado por el curso, y me han dicho que han aprendido muchas cosas que en otra instituicion no les han enseñado, asi que este fue una motivacion para mi, siento que este curso me puede brindar una muy buena formacion como programador,diseñador, el objetivo en general es poder manejar muy bien todos los temas de tal manera que el dia de mañana en el campo laboral pueda aplicar todos esos conocimientos aprendidos.</p>
-    </article>
-    <hr>
-
-    <article>
-    <h2>Mis hobbits favoritos</h2>
-    <ul>
-        <li>Ir al gimnasio a entrenar</li>
-        <li>Jugar futbol</li>
-        <li>Leer libros</li>
-            <ul>
-                <li>Superacion personal</li>
-                <li>Educacion financiera</li>
-                <li>Nuevas habilidades</li>
-                <li>Habitos sanos</li>
-            </ul>
-        <li>Escuchar musica</li>
-        <li>Hacer videos</li>
-        <li>Compartir con amigos</li>
-    </ul> 
-    <hr> 
-    </article>
-
-    <h2>Mi cancion favorita</h2>
-    <p>Especialmente la escucho cuando entreno, es una cancion que no tiene voces es instrumental, simpelente para ayudarme a concentrar en cualquier actividad, y motivarme.</p>
-    <div class="center">
-    <audio src="The Fallen - Slowed.mp3" controls style="border: 10px solid rgb(44, 61, 92);"></audio>
-    </div>
-    <hr>
-
-    <h2>Mi video favorito</h2>
-    <p>Este video viene de una pelicula llamada Desafiando Gigantes en donde nos brina una enorme reflexion para la vida</p>
-    <div class="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vCeic31g9KQ?si=SOis1ODsBlIheLzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border: 60px solid rgb(44, 61, 92);"></iframe>
-    </div>
-
-    <h2>Mi rutina semanal</h2>
-    <table>
-        <tr>
-            <th>Hora</th>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miercoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-            <th>Sabado</th>
-            <th>Domingo</th>
-        </tr>
-        <tr>
-            <td>6:30 am</td>
-            <td>Trabajo</td>
-            <td>Trabajo</td>
-            <td>Trabajo</td>
-            <td>Trabajo</td>
-            <td>Trabajo</td>
-            <td>Dormir</td>
-            <td>Dormir</td>
-        </tr>
-        <tr>
-            <td>9:00 am</td>
-            <td>Tomar un descanso en el trabajo</td>
-            <td>Tomar un descanso en el trabajo</td>
-            <td>Tomar un descanso en el trabajo</td>
-            <td>Tomar un descanso en el trabajo</td>
-            <td>Tomar un descanso en el trabajo</td>
-            <td>Ir al Gym</td>
-            <td>Ir a jugar futbol</tr>
-        </tr>
-        <tr>
-            <td>1:00 pm</td>
-            <td>Almorzar</td>
-            <td>Almorzar</td>
-            <td>Almorzar</td>
-            <td>Almorzar</td>
-            <td>Almorzar</td>
-            <td>Almorzar</td>
-            <td>Almorzar</td>
-        </tr>
-        <tr>
-            <td>2:00 pm</td>
-            <td>Entrenar en el gym</td>
-            <td>Entrenar en el gym</td>
-            <td>Entrenar en el gym</td>
-            <td>Entrenar en el gym</td>
-            <td>Entrenar en el gym</td>
-            <td>Hacer aseo de casa</td>
-            <td>Compartir con amigos</td>
-        </tr>
-        <tr>
-            <td>5:00 pm</td>
-            <td>Hacer trabajos de la u</td>
-            <td>Hacer trabajos de la u</td>
-            <td>Hacer trabajos de la u</td>
-            <td>Leer</td>
-            <td>Leer</td>
-            <td>Lavar y colgar ropa</td>
-            <td>Alistar lo de la semana</td>
-        </tr>
-        <tr>
-            <td>8:00 pm</td>
-            <td>Clase</td>
-            <td>Clase</td>
-            <td>Clase</td>
-            <td>Clase</td>
-            <td>Clase</td>
-            <td>Compartir con familia</td>
-            <td>Recompensa</td>
-        </tr>
-    </table>
-
-
-    </section>
-    <footer>Correo: fuquenescobarluisdavid@gmail.com </footer>
+    <main>
+        <section class="contenedor-sobre-mi">
+            <div class="contenedor-sobre-mi">
+                <img src="img/David.jpeg" style="padding: 1px 2px 1px 1px;
+                height: 40%;" alt="yo">
+            
+                <div class="contenido-textos">
+                    <h2 class ="titulo" style="width: 60%; text-align:right; color: #a8e2fd;">UN POCO SOBRE MI</h2>
+                    <h3><span>1</span>¿Porque escogi este curso?</h3>
+                    <p>Elegi este curso porque es fundamental para la carrera que estudio, es una manera de complenetar mis estudios, pero tambien por aprender esta nueva habilidad para destacarme en ello, ya que es algo que me gusta y me llama la atencion.</p>
+                    <h3><span>2</span>¿Que aspiraciones tengo?</h3>
+                    <p>Las aspiraciones que tengo con este curso son las de aprender y llegar a convertir una habilidad los conocimientos aprendidos, dominar cada uno de los lenguajes para asi poder ser un gran profesional en la empresa que me contrate.</p>
+                    <h3><span>3</span>¿Vision a futuro?</h3>
+                    <p>En un futuro como ya saben estudio ingenieria de sistemas, me gustaria dominar gran parte de este mundo, con el fin de que de aqui en adelante pueda complementar cada vez mas mis estudios y asi poder ser un gran profesional para cualquier empresa que me contrate</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo" style="width: 100%;
+                padding: 3%; text-align: center; color: #7052c2;">Mis gustos</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                    <img src="img/gym.jpg" alt="gimnasio">
+                    <div class="hover-galeria">
+                        <img src="img/cursor.png" alt="cursorx">
+                        <p>Ir al gimnasio</p>
+                    </div>
+                </div>
+                <div class="imagen-port">
+                <img src="img/fiesta.jpg" alt="fiesta">
+                <div class="hover-galeria">
+                    <img src="img/cursor.png" alt="cursorx">
+                    <p>Ir de fiesta con amigos</p>
+                </div>
+            </div>
+                <div class="imagen-port">
+                <img src="img/leer.jpg" alt="lectura">
+                <div class="hover-galeria">
+                    <img src="img/cursor.png" alt="cursorx">
+                    <p>Leer libros</p>
+                </div>
+            </div>
+                <div class="imagen-port">
+                <img src="img/escuchar.png" alt="escuchar">
+                <div class="hover-galeria">
+                    <img src="img/cursor.png" alt="cursorx">
+                    <p>Escuchar musica</p>
+                </div>
+            </div>
+                <div class="imagen-port">
+                <img src="img/peliculas.jpg" alt="pelis">
+                <div class="hover-galeria">
+                    <img src="img/cursor.png" alt="cursorx">
+                    <p>Pelis</p>
+                </div>
+            </div>
+                <div class="imagen-port">
+                <img src="img/viajar.jpg" alt="viajar">
+                <div class="hover-galeria">
+                    <img src="img/cursor.png" alt="cursorx">
+                    <p>Viajar</p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="cards">
+            <h2 class="cards">Aspiraciones</h2>
+            <div class="cards">
+                <div class="card">
+                <img src="img/Aspiracion.jpg" alt="aspiracion.">
+                <div class="contenido-texto-card">
+                    <h4>Convertirme en profesional</h4>
+                    <p>El objetivo al que le apuntamos es a ser un gran profesional, para destacarnos en cualquier area de la rama de sistemas y asi seguir aprendiendo cosas nuevas</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                <img src="img/A futuro.jpg"  alt="a futuro.">
+                <div class="contenido-texto-card">
+                    <h4>Ser feliz con lo que hago</h4>
+                    <p>Ser feliz y buscar una manera de hacer lo que te gusta es escencial para vivir una vida plena, por eso realizar estos cursos y esto me brindaran mas adelante los objetivos cumplidos por consiguiente obtendremos felicidad por hacer algo que realmente nos interesa</p>
+                </div>
+            </div>
+        </section>
+        <section class="about-service">
+            <div class="contenedor">
+                <h2 class="titulo" style="text-align: center; padding: 50px; color:#7052c2;">Un poco mas sobre mi</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/musica.jpg" alt="trabajo.">
+                        <h3>La musica</h3>
+                        <p>Otra de mis gran pasiones, a pesar de que se tocar muy pocos instrumentos para mi la musica es una pasion, mas adelante quiero incursionar en el mundo musical</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/neymar.jpg" alt="neymar.">
+                        <h3>Mi referente ELON MUSK</h3>
+                        <p>Para mi en lo que a aportado al mundo como sociedad e ingenio con cada una de sus creaciones, su conocimiento y vision lo engrandecen siendo una persona ejemplar en mi vida. </p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/balondeoro.jpg" alt="balondeoro.">
+                        <h3>Mi pelicula favorita interestelar</h3>
+                        <p>Una pelicula que es graficamente excepcional, nos hace entender un poco sobre nuestro universo, asi como valores en la humanidad que nos hacen diferentes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+       <div class="contenedor-footer">
+        <div class="content-foo">
+        <h4>Contacto</h4>
+        <p>3214450073</p>
+        <h4>Correo</h4>
+        <p>fuquenescobarluisdavid@gmail.com</p>
+        <h4>Ciudad</h4>
+        <p>Tunja</p>
+        </div>
+       </div> 
+       <h2 class="titulo-final">&copy; Luis David Fuquen Escobar | Boyaca </h2>
+    </footer>  
 </body>
 </html>
